@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_gameshare_shape">
+
+    <RelativeLayout
+        android:layout_height="40dp"
+        android:layout_width="match_parent"
+        android:background="#ffffcc"
+        >
+
+        <TextView
+            android:id="@+id/app_share_appname"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="使用手机扫描下载"
+            android:textColor="#000000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/app_share_cancel"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:src="@drawable/clear"
+            />
+
+
+
+
+        </RelativeLayout>
+
+
+
+</LinearLayout>

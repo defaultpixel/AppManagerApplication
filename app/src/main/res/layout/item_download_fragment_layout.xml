@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+    <LinearLayout
+        android:id="@+id/above_download_Recycler"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="#8B6914"
+        >
+        <ImageView
+            android:id="@+id/download_back"
+            android:layout_height="40dp"
+            android:layout_width="40dp"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/btn_back_normal"
+            />
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="下载列表"
+            android:textColor="@color/color_light_blue"
+            android:textSize="20sp"
+            />
+
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/download_Recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/above_download_Recycler"
+        />
+
+</RelativeLayout>
